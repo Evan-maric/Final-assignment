@@ -1,0 +1,18 @@
+.sector-one{
+    padding:2em;
+    text-align:center;
+}
+
+.sector-one h1{
+    color:#863737;
+    font-size:3em;
+    font-family:'megrim';
+    margin-top:4em;
+    background-color:black;
+    border-radius: 2em;
+}
+
+.sector-one p{
+    color:#1f1f1f;
+    font-size:2em;
+}

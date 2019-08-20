@@ -1,0 +1,130 @@
+.main-img{
+    min-height:500px;
+    width:4000px;
+    object-fit: cover;
+    }
+    
+    .main-section:{
+    position:relative;
+    text-align:center;
+    margin-right:none;
+    width:320px;
+    }
+    
+    
+    .join-main{
+        background-color:rgba(0, 0, 0, 0.514);
+        position:absolute;
+        left:0;
+        right:0;
+        top:35%;
+        font-size:2.5em;
+        text-align:center;
+        color:white;
+        padding:.3em;
+        font-family: 'Megrim';
+    }
+    
+    .subsection{
+        margin-top:1px;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap;
+        border-style: dashed;
+        border-color:white;
+        color:white;
+        text-align:center;
+    }
+    
+    .subsection h2{
+        border: #863737;
+        border-style: dashed;
+        padding: 3em;
+        border-width: .1em;
+        background-color:#383838;
+    }
+    
+    
+    .subsection h2:hover{
+        background-image: radial-gradient(#383838, #413838);
+    }
+    
+    
+    
+    
+    .main-section-b{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-top:3em;
+    }
+    
+    .main-section-b h2{
+        color:white;
+        font-size: 2em;
+        padding-bottom:.7em;
+        padding-top:1em;
+    }
+    
+    .main-section-b article{
+        padding:6em;
+        padding-top:3em;
+        padding-bottom:3em;
+        display:inline-block;
+        text-align:center;
+    }
+    
+    .main-section-b img{
+        width:400px;
+        border-color:#863737;
+        border-style: solid;
+        border-width:.5em;
+    }
+    
+    .main-section-b img:hover{
+        border-color:White;
+    }
+    
+    @media screen and (min-width:1100px){
+        .subsection{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+    
+    
+        .main-section-b{
+            margin-top:3em;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    
+        .article-a-b{
+            grid-column-start:1;
+            grid-column-end:4;
+            grid-row-start:1;
+        }
+    
+        .article-b-b{
+            grid-column-start:3;
+            grid-column-end:6;
+            grid-row-start:1;
+        }
+    
+        .article-c-b{
+            grid-column-start:2;
+            grid-column-end:5;
+            grid-row-start:2;
+        }
+    
+        .main-section-b h2{
+            padding-left:3em;
+            padding-right:3em;
+            line-height:1em;
+            padding-top:1em;
+        }
+    
+    
+    
+    }

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+body{
+    background-color: rgb(92, 92, 92);
+    font-family: 'cinzel decorative' , sans-serif;
+    font-kerning: 5px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.navigator{
+    background-color:rgb(56, 56, 56);
+    display:inline;
+    position:fixed;
+    left:0;
+    right:0;
+    position:fixed;
+    z-index: 999;
+    border-style: double;
+    border-color: #863737;
+    border-width:.3em;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+
+.nav-img{
+    width:50px;
+    padding:.3em;
+}
+
+.grid-nav{
+    display:grid;
+    grid-template-areas:
+    "a . b . c ";
+}
+
+.drop-menu{
+    grid-area:a;
+}
+
+.logo{
+    grid-area:b;
+    justify-self: center;
+}
+
+.search{
+    grid-area:c;
+    justify-self: right;
+}
+
+
+
+
+
+.foot{
+    background-color:#383838;
+    padding-bottom:2em;
+}
+
+.tos{
+    padding-top:1em;
+}
+
+.tos li{
+    text-align:center;
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.social li{
+    display:inline;
+    text-align:center;
+    align-self:center;
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.social{
+    text-align:Center;
+    padding-top:2em;
+}
+
+.sm{
+    width:50px;
+}
+
+@media screen and (min-width:680px){
+    .tos li{
+        display:inline;
+    }
+
+    .tos{
+        text-align:center;
+    }
+}
